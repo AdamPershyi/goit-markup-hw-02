@@ -1,11 +1,12 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 ul {
@@ -45,7 +46,9 @@ a {
 }
 
 .nav-link:hover,
-.address-link:hover {
+.address-link:hover,
+.nav-link:focus,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -65,6 +68,7 @@ h1 {
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .order-button:hover {
@@ -87,7 +91,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -95,7 +99,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
